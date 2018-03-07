@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e19a415-6a7a-401c-9768-6aa9b0616c82" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RiderMVCTest/DAL/Context/Context.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RiderMVCTest/DAL/Context/DbInitializer.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RiderMVCTest/DAL/Models/testTable.cs" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RiderMVCTest/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.RiderMVCTest/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RiderMVCTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.RiderMVCTest/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/RiderMVCTest/Program.cs" afterPath="$PROJECT_DIR$/RiderMVCTest/Program.cs" />
       <change beforePath="$PROJECT_DIR$/RiderMVCTest/RiderMVCTest.csproj" afterPath="$PROJECT_DIR$/RiderMVCTest/RiderMVCTest.csproj" />
+      <change beforePath="$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs" afterPath="$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs" />
       <change beforePath="$PROJECT_DIR$/RiderMVCTest/Startup.cs" afterPath="$PROJECT_DIR$/RiderMVCTest/Startup.cs" />
+      <change beforePath="$PROJECT_DIR$/RiderMVCTest/appsettings.json" afterPath="$PROJECT_DIR$/RiderMVCTest/appsettings.json" />
       <change beforePath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.deps.json" afterPath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.deps.json" />
       <change beforePath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.dll" afterPath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.dll" />
       <change beforePath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.pdb" afterPath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.pdb" />
@@ -24,15 +29,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RiderMVCTest" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RiderMVCTest/Controllers/ValuesController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <marker date="1520415694769" expanded="false" signature="6:128" ph="..." />
+                <marker date="1520415694769" expanded="true" signature="164:920" ph="{...}" />
                 <marker date="1520415694769" expanded="true" signature="245:918" ph="{...}" />
                 <marker date="1520415694769" expanded="true" signature="336:410" ph="{...}" />
                 <marker date="1520415694769" expanded="true" signature="499:547" ph="{...}" />
@@ -47,53 +56,169 @@
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RiderMVCTest/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="480">
+              <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding>
-                <marker date="1520422109368" expanded="true" signature="6:295" ph="..." />
-                <marker date="1520422109368" expanded="true" signature="319:2083" ph="{...}" />
-                <marker date="1520422109368" expanded="true" signature="346:2081" ph="{...}" />
-                <marker date="1520422109368" expanded="true" signature="405:468" ph="{...}" />
-                <marker date="1520422109368" expanded="true" signature="691:1549" ph="{...}" />
-                <marker date="1520422109368" expanded="true" signature="823:941" ph="{...}" />
-                <marker date="1520422109368" expanded="true" signature="1045:1165" ph="{...}" />
-                <marker date="1520422109368" expanded="true" signature="1207:1537" ph="{...}" />
-                <marker date="1520422109368" expanded="true" signature="1737:2075" ph="{...}" />
-                <marker date="1520422109368" expanded="true" signature="1917:1994" ph="{...}" />
+                <marker date="1520447440918" expanded="false" signature="6:364" ph="..." />
+                <marker date="1520447440918" expanded="true" signature="388:2308" ph="{...}" />
+                <marker date="1520447440918" expanded="true" signature="415:2306" ph="{...}" />
+                <marker date="1520447440918" expanded="true" signature="474:537" ph="{...}" />
+                <marker date="1520447440918" expanded="true" signature="760:1774" ph="{...}" />
+                <marker date="1520447440918" expanded="true" signature="1048:1166" ph="{...}" />
+                <marker date="1520447440918" expanded="true" signature="1270:1390" ph="{...}" />
+                <marker date="1520447440918" expanded="true" signature="1432:1762" ph="{...}" />
+                <marker date="1520447440918" expanded="true" signature="1962:2300" ph="{...}" />
+                <marker date="1520447440918" expanded="true" signature="2142:2219" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapperProfile.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RiderMVCTest/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding>
+                <marker date="1520437142608" expanded="false" signature="6:193" ph="..." />
+                <marker date="1520437142608" expanded="true" signature="217:1119" ph="{...}" />
+                <marker date="1520437142608" expanded="true" signature="244:1117" ph="{...}" />
+                <marker date="1520437142608" expanded="true" signature="297:936" ph="{...}" />
+                <marker date="1520437142608" expanded="true" signature="410:926" ph="{...}" />
+                <marker date="1520437142608" expanded="true" signature="498:669" ph="{...}" />
+                <marker date="1520437142608" expanded="true" signature="705:912" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RiderMVCTest/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/Context.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+              <folding>
+                <marker date="1520436933124" expanded="false" signature="6:81" ph="..." />
+                <marker date="1520436933124" expanded="true" signature="117:536" ph="{...}" />
+                <marker date="1520436933124" expanded="true" signature="162:534" ph="{...}" />
+                <marker date="1520436933124" expanded="true" signature="254:287" ph="{...}" />
+                <marker date="1520436933124" expanded="true" signature="428:528" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbInitializer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/DbInitializer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <marker date="1520436012080" expanded="true" signature="34:259" ph="{...}" />
+                <marker date="1520436012080" expanded="true" signature="67:257" ph="{...}" />
+                <marker date="1520436012080" expanded="true" signature="134:251" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testTable.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Models/testTable.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
-                <marker date="1520422901268" expanded="true" signature="48:200" ph="{...}" />
-                <marker date="1520422901268" expanded="true" signature="91:198" ph="{...}" />
-                <marker date="1520422901268" expanded="true" signature="128:183" ph="{...}" />
+                <marker date="1520444908711" expanded="true" signature="79:215" ph="{...}" />
+                <marker date="1520444908711" expanded="true" signature="108:213" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityContextModelSnapshot.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Migrations/EntityContextModelSnapshot.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20180307183638_initalMigration.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Migrations/20180307183638_initalMigration.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <marker date="1520447798952" expanded="false" signature="6:141" ph="..." />
+                <marker date="1520447798952" expanded="true" signature="176:1048" ph="{...}" />
+                <marker date="1520447798952" expanded="true" signature="231:1046" ph="{...}" />
+                <marker date="1520447798952" expanded="true" signature="307:871" ph="{...}" />
+                <marker date="1520447798952" expanded="true" signature="449:717" ph="{...}" />
+                <marker date="1520447798952" expanded="true" signature="756:859" ph="{...}" />
+                <marker date="1520447798952" expanded="true" signature="944:1040" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.Development.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RiderMVCTest/appsettings.Development.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>language</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Migrations/20180307183638_initalMigration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RiderMVCTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RiderMVCTest/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0C6B76A-E654-4F14-A60B-867B6F0BB788/3c/d2dcd0df/ConfigureServicesBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/Context.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0C6B76A-E654-4F14-A60B-867B6F0BB788/9f/82094287/WebHost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/DbInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RiderMVCTest/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Models/testTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Migrations/EntityContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RiderMVCTest/Startup.cs" />
         <option value="$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/DAL/Models/Context.cs" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/DAL/Context/DbInitializer.cs" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/DAL/Models/estTable.cs" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/DAL/Context/Context.cs" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/Program.cs" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/RiderMVCTest.csproj" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/DAL/Models/testTable.cs" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/appsettings.json" />
+        <option value="$PROJECT_DIR$/RiderMVCTest/Startup.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +230,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="1274" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -123,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -140,18 +264,24 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RiderMVCTest (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="RiderMVCTest" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DAL" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="SearchEverywhereHistoryKey" value="termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;terminal&#9;ACTION&#9;ActivateTerminalToolWindow" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,12 +330,14 @@
       <option name="presentableId" value="Default" />
       <updated>1520415677572</updated>
       <workItem from="1520415680636" duration="2899000" />
-      <workItem from="1520419143451" duration="2775000" />
+      <workItem from="1520419143451" duration="4473000" />
+      <workItem from="1520435022208" duration="4611000" />
+      <workItem from="1520440407637" duration="6030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5674000" />
+    <option name="totallyTimeSpent" value="18013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,31 +349,55 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="840" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1274" height="1027" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5095238" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.4952381" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.825" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.4904762" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16483517" sideWeight="0.49375" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34659687" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4952381" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50625" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -251,9 +407,89 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RiderMVCTest/Program.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/RiderMVCTest/Program.cs" initialLine="13">
+            <startOffsets>
+              <startOffset value="320" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="350" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RiderMVCTest/Program.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/RiderMVCTest/Program.cs" initialLine="14">
+            <startOffsets>
+              <startOffset value="363" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="410" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RiderMVCTest/Program.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/RiderMVCTest/Program.cs" initialLine="19">
+            <startOffsets>
+              <startOffset value="537" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="596" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RiderMVCTest/Program.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/RiderMVCTest/Program.cs" initialLine="24">
+            <startOffsets>
+              <startOffset value="744" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="805" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/DbInitializer.cs</url>
+          <line>6</line>
+          <properties documentPath="$PROJECT_DIR$/RiderMVCTest/DAL/Context/DbInitializer.cs" initialLine="6">
+            <startOffsets>
+              <startOffset value="157" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="190" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="Configuration.GetConnectionString(&quot;DefaultConnection&quot;)" language="C#" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>Configuration.GetConnectionString(&quot;DefaultConnection&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/RiderMVCTest/Controllers/ValuesController.cs">
@@ -262,6 +498,180 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1520415694769" expanded="false" signature="6:128" ph="..." />
+            <marker date="1520415694769" expanded="true" signature="164:920" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="245:918" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="336:410" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="499:547" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="644:664" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="776:796" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="892:912" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <marker date="1520447440918" expanded="false" signature="6:364" ph="..." />
+            <marker date="1520447440918" expanded="true" signature="388:2308" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="415:2306" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="474:537" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="760:1774" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1048:1166" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1270:1390" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1432:1762" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1962:2300" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="2142:2219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0C6B76A-E654-4F14-A60B-867B6F0BB788/3c/d2dcd0df/ConfigureServicesBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0C6B76A-E654-4F14-A60B-867B6F0BB788/9f/82094287/WebHost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="8" lean-forward="false" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1520435140888" expanded="true" signature="48:200" ph="{...}" />
+            <marker date="1520435140888" expanded="true" signature="91:198" ph="{...}" />
+            <marker date="1520435140888" expanded="true" signature="128:183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/Context.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <marker date="1520436933124" expanded="false" signature="6:81" ph="..." />
+            <marker date="1520436933124" expanded="true" signature="117:536" ph="{...}" />
+            <marker date="1520436933124" expanded="true" signature="162:534" ph="{...}" />
+            <marker date="1520436933124" expanded="true" signature="254:287" ph="{...}" />
+            <marker date="1520436933124" expanded="true" signature="428:528" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/DbInitializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <marker date="1520436012080" expanded="true" signature="34:259" ph="{...}" />
+            <marker date="1520436012080" expanded="true" signature="67:257" ph="{...}" />
+            <marker date="1520436012080" expanded="true" signature="134:251" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Models/testTable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <marker date="1520444908711" expanded="true" signature="79:215" ph="{...}" />
+            <marker date="1520444908711" expanded="true" signature="108:213" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <marker date="1520437142608" expanded="false" signature="6:193" ph="..." />
+            <marker date="1520437142608" expanded="true" signature="217:1119" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="244:1117" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="297:936" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="410:926" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="498:669" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="705:912" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520415694769" expanded="false" signature="6:128" ph="..." />
+            <marker date="1520415694769" expanded="true" signature="164:920" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="245:918" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="336:410" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="499:547" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="644:664" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="776:796" ph="{...}" />
+            <marker date="1520415694769" expanded="true" signature="892:912" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <marker date="1520447440918" expanded="false" signature="6:364" ph="..." />
+            <marker date="1520447440918" expanded="true" signature="388:2308" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="415:2306" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="474:537" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="760:1774" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1048:1166" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1270:1390" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1432:1762" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1962:2300" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="2142:2219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1520435140888" expanded="true" signature="48:200" ph="{...}" />
+            <marker date="1520435140888" expanded="true" signature="91:198" ph="{...}" />
+            <marker date="1520435140888" expanded="true" signature="128:183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520415694769" expanded="false" signature="6:128" ph="..." />
+            <marker date="1520415694769" expanded="true" signature="164:920" ph="{...}" />
             <marker date="1520415694769" expanded="true" signature="245:918" ph="{...}" />
             <marker date="1520415694769" expanded="true" signature="336:410" ph="{...}" />
             <marker date="1520415694769" expanded="true" signature="499:547" ph="{...}" />
@@ -277,26 +687,65 @@
         <state relative-caret-position="315">
           <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <marker date="1520422109368" expanded="true" signature="6:295" ph="..." />
-            <marker date="1520422109368" expanded="true" signature="319:2083" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="346:2081" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="405:468" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="691:1549" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="823:941" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="1045:1165" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="1207:1537" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="1737:2075" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="1917:1994" ph="{...}" />
+            <marker date="1520447440918" expanded="false" signature="6:364" ph="..." />
+            <marker date="1520447440918" expanded="true" signature="388:2308" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="415:2306" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="474:537" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="760:1774" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1048:1166" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1270:1390" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1432:1762" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1962:2300" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="2142:2219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1520435140888" expanded="true" signature="48:200" ph="{...}" />
+            <marker date="1520435140888" expanded="true" signature="91:198" ph="{...}" />
+            <marker date="1520435140888" expanded="true" signature="128:183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0C6B76A-E654-4F14-A60B-867B6F0BB788/3c/d2dcd0df/ConfigureServicesBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0C6B76A-E654-4F14-A60B-867B6F0BB788/9f/82094287/WebHost.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="8" lean-forward="false" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/RiderMVCTest.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <marker date="1520447827583" expanded="true" signature="1261:1274" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RiderMVCTest/Controllers/ValuesController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
             <marker date="1520415694769" expanded="false" signature="6:128" ph="..." />
+            <marker date="1520415694769" expanded="true" signature="164:920" ph="{...}" />
             <marker date="1520415694769" expanded="true" signature="245:918" ph="{...}" />
             <marker date="1520415694769" expanded="true" signature="336:410" ph="{...}" />
             <marker date="1520415694769" expanded="true" signature="499:547" ph="{...}" />
@@ -307,33 +756,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/DbInitializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
-            <marker date="1520422109368" expanded="true" signature="6:295" ph="..." />
-            <marker date="1520422109368" expanded="true" signature="319:2083" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="346:2081" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="405:468" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="691:1549" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="823:941" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="1045:1165" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="1207:1537" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="1737:2075" ph="{...}" />
-            <marker date="1520422109368" expanded="true" signature="1917:1994" ph="{...}" />
+            <marker date="1520436012080" expanded="true" signature="34:259" ph="{...}" />
+            <marker date="1520436012080" expanded="true" signature="67:257" ph="{...}" />
+            <marker date="1520436012080" expanded="true" signature="134:251" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Shared/MapperProfile.cs">
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Context/Context.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <marker date="1520436933124" expanded="false" signature="6:81" ph="..." />
+            <marker date="1520436933124" expanded="true" signature="117:536" ph="{...}" />
+            <marker date="1520436933124" expanded="true" signature="162:534" ph="{...}" />
+            <marker date="1520436933124" expanded="true" signature="254:287" ph="{...}" />
+            <marker date="1520436933124" expanded="true" signature="428:528" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <marker date="1520437142608" expanded="false" signature="6:193" ph="..." />
+            <marker date="1520437142608" expanded="true" signature="217:1119" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="244:1117" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="297:936" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="410:926" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="498:669" ph="{...}" />
+            <marker date="1520437142608" expanded="true" signature="705:912" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <marker date="1520447440918" expanded="false" signature="6:364" ph="..." />
+            <marker date="1520447440918" expanded="true" signature="388:2308" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="415:2306" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="474:537" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="760:1774" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1048:1166" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1270:1390" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1432:1762" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="1962:2300" ph="{...}" />
+            <marker date="1520447440918" expanded="true" signature="2142:2219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Models/testTable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <marker date="1520422901268" expanded="true" signature="48:200" ph="{...}" />
-            <marker date="1520422901268" expanded="true" signature="91:198" ph="{...}" />
-            <marker date="1520422901268" expanded="true" signature="128:183" ph="{...}" />
+            <marker date="1520444908711" expanded="true" signature="79:215" ph="{...}" />
+            <marker date="1520444908711" expanded="true" signature="108:213" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Migrations/EntityContextModelSnapshot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiderMVCTest/DAL/Migrations/20180307183638_initalMigration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1520447798952" expanded="false" signature="6:141" ph="..." />
+            <marker date="1520447798952" expanded="true" signature="176:1048" ph="{...}" />
+            <marker date="1520447798952" expanded="true" signature="231:1046" ph="{...}" />
+            <marker date="1520447798952" expanded="true" signature="307:871" ph="{...}" />
+            <marker date="1520447798952" expanded="true" signature="449:717" ph="{...}" />
+            <marker date="1520447798952" expanded="true" signature="756:859" ph="{...}" />
+            <marker date="1520447798952" expanded="true" signature="944:1040" ph="{...}" />
           </folding>
         </state>
       </provider>
