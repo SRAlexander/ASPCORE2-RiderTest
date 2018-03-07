@@ -19,6 +19,9 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="RiderMVCTest.csproj" t="IncludeRecursive" />
+        <e p="shared" t="Include">
+          <e p="MapperProfile.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="wwwroot" t="Include" />
       </e>
