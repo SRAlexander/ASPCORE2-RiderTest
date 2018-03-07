@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e19a415-6a7a-401c-9768-6aa9b0616c82" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.RiderMVCTest/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RiderMVCTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.RiderMVCTest/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/RiderMVCTest/Startup.cs" afterPath="$PROJECT_DIR$/RiderMVCTest/Startup.cs" />
+      <change beforePath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.dll" afterPath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.dll" />
+      <change beforePath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.pdb" afterPath="$PROJECT_DIR$/RiderMVCTest/bin/Debug/netcoreapp2.0/RiderMVCTest.pdb" />
+      <change beforePath="$PROJECT_DIR$/RiderMVCTest/obj/Debug/netcoreapp2.0/RiderMVCTest.dll" afterPath="$PROJECT_DIR$/RiderMVCTest/obj/Debug/netcoreapp2.0/RiderMVCTest.dll" />
+      <change beforePath="$PROJECT_DIR$/RiderMVCTest/obj/Debug/netcoreapp2.0/RiderMVCTest.pdb" afterPath="$PROJECT_DIR$/RiderMVCTest/obj/Debug/netcoreapp2.0/RiderMVCTest.pdb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,17 +39,19 @@
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RiderMVCTest/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="253">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <marker date="1520417770851" expanded="false" signature="6:199" ph="..." />
-                <marker date="1520417770851" expanded="true" signature="223:1309" ph="{...}" />
-                <marker date="1520417770851" expanded="true" signature="250:1307" ph="{...}" />
-                <marker date="1520417770851" expanded="true" signature="309:372" ph="{...}" />
-                <marker date="1520417770851" expanded="true" signature="595:819" ph="{...}" />
-                <marker date="1520417770851" expanded="true" signature="689:807" ph="{...}" />
-                <marker date="1520417770851" expanded="true" signature="1007:1301" ph="{...}" />
-                <marker date="1520417770851" expanded="true" signature="1187:1264" ph="{...}" />
+                <marker date="1520420478572" expanded="false" signature="6:277" ph="..." />
+                <marker date="1520420478572" expanded="true" signature="301:2027" ph="{...}" />
+                <marker date="1520420478572" expanded="true" signature="328:2025" ph="{...}" />
+                <marker date="1520420478572" expanded="true" signature="387:450" ph="{...}" />
+                <marker date="1520420478572" expanded="true" signature="673:1493" ph="{...}" />
+                <marker date="1520420478572" expanded="true" signature="767:885" ph="{...}" />
+                <marker date="1520420478572" expanded="true" signature="989:1109" ph="{...}" />
+                <marker date="1520420478572" expanded="true" signature="1151:1481" ph="{...}" />
+                <marker date="1520420478572" expanded="true" signature="1681:2019" ph="{...}" />
+                <marker date="1520420478572" expanded="true" signature="1861:1938" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -158,12 +165,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520415677572</updated>
       <workItem from="1520415680636" duration="2899000" />
-      <workItem from="1520419143451" duration="219000" />
+      <workItem from="1520419143451" duration="1734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3118000" />
+    <option name="totallyTimeSpent" value="4633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -176,14 +183,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="840" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -210,33 +216,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RiderMVCTest/Startup.cs</url>
-          <line>23</line>
-          <properties documentPath="$PROJECT_DIR$/RiderMVCTest/Startup.cs" initialLine="27">
-            <startOffsets>
-              <startOffset value="702" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="703" />
-            </endOffsets>
-          </properties>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RiderMVCTest/Startup.cs</url>
-          <line>25</line>
-          <properties documentPath="$PROJECT_DIR$/RiderMVCTest/Startup.cs" initialLine="24">
-            <startOffsets>
-              <startOffset value="806" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="807" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
@@ -263,14 +242,16 @@
         <state relative-caret-position="315">
           <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <marker date="1520417770851" expanded="false" signature="6:199" ph="..." />
-            <marker date="1520417770851" expanded="true" signature="223:1309" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="250:1307" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="309:372" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="595:819" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="689:807" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="1007:1301" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="1187:1264" ph="{...}" />
+            <marker date="1520420478572" expanded="false" signature="6:277" ph="..." />
+            <marker date="1520420478572" expanded="true" signature="301:2027" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="328:2025" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="387:450" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="673:1493" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="767:885" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="989:1109" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="1151:1481" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="1681:2019" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="1861:1938" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -293,17 +274,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RiderMVCTest/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1520417770851" expanded="false" signature="6:199" ph="..." />
-            <marker date="1520417770851" expanded="true" signature="223:1309" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="250:1307" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="309:372" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="595:819" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="689:807" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="1007:1301" ph="{...}" />
-            <marker date="1520417770851" expanded="true" signature="1187:1264" ph="{...}" />
+            <marker date="1520420478572" expanded="false" signature="6:277" ph="..." />
+            <marker date="1520420478572" expanded="true" signature="301:2027" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="328:2025" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="387:450" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="673:1493" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="767:885" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="989:1109" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="1151:1481" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="1681:2019" ph="{...}" />
+            <marker date="1520420478572" expanded="true" signature="1861:1938" ph="{...}" />
           </folding>
         </state>
       </provider>
